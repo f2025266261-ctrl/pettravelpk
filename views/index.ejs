@@ -1,0 +1,602 @@
+<%- include('partials/header') %>
+
+<section class="hero hero--media" id="home">
+  <div class="hero__media" aria-hidden="true">
+    <video class="hero__video" autoplay muted loop playsinline poster="/images/hero-poster.jpg" preload="metadata">
+      <source src="/images/hero-bg.mp4" type="video/mp4" />
+    </video>
+    <div class="hero__overlay"></div>
+  </div>
+
+  <div class="hero__content">
+    <span class="hero__eyebrow">
+      <span aria-hidden="true">🐾</span>
+      <span>Pakistan's Most Trusted Pet Relocation</span>
+    </span>
+
+    <h1 class="hero__title">
+      Your Pet Deserves a <span class="accent">Five-Star</span> Journey
+    </h1>
+
+    <p class="hero__subtitle">
+      Safe, certified, door-to-door pet relocation across Pakistan and worldwide — handled with love.
+    </p>
+
+    <div class="hero__actions hero__actions--primary">
+      <a class="hero__button hero__button--primary" href="#contact">Get a Free Quote →</a>
+      <a class="hero__button hero__button--secondary" href="#how-it-works">See How It Works ↓</a>
+    </div>
+
+    <div class="hero__trust" aria-label="Trusted by pet parents worldwide">
+      <span class="hero__trust-badge">🌍 50+ Countries</span>
+      <span class="hero__trust-badge">✈️ IPATA Certified</span>
+      <span class="hero__trust-badge">⭐ 500+ Happy Pets</span>
+      <span class="hero__trust-badge">🕐 24/7 Support</span>
+    </div>
+  </div>
+</section>
+
+<section class="process" id="how-it-works">
+  <div class="process__inner">
+    <div class="process__header reveal">
+      <span class="process__eyebrow">THE PROCESS</span>
+      <h2 class="process__title">Getting Your Pet There is Simple</h2>
+      <p class="process__subtitle">We handle every step — you just focus on the reunion.</p>
+    </div>
+
+    <div class="process__steps" data-process-steps>
+      <article class="process__step reveal" style="--step-delay: 0s;">
+        <span class="process__step-number">1</span>
+        <span class="process__step-icon" aria-hidden="true">📋</span>
+        <h3 class="process__step-title">Tell Us About Your Pet</h3>
+        <p class="process__step-text">Fill out our quick form with your pet's details, breed, destination, and travel dates.</p>
+      </article>
+
+      <article class="process__step reveal" style="--step-delay: 0.12s;">
+        <span class="process__step-number">2</span>
+        <span class="process__step-icon" aria-hidden="true">🩺</span>
+        <h3 class="process__step-title">We Prepare Everything</h3>
+        <p class="process__step-text">Our team handles health certificates, airline booking, IATA crates, and all documentation.</p>
+      </article>
+
+      <article class="process__step reveal" style="--step-delay: 0.24s;">
+        <span class="process__step-number">3</span>
+        <span class="process__step-icon" aria-hidden="true">✈️</span>
+        <h3 class="process__step-title">Safe Departure</h3>
+        <p class="process__step-text">Your pet travels in climate-controlled, IATA-approved carriers with constant monitoring.</p>
+      </article>
+
+      <article class="process__step reveal" style="--step-delay: 0.36s;">
+        <span class="process__step-number">4</span>
+        <span class="process__step-icon" aria-hidden="true">🏠</span>
+        <h3 class="process__step-title">Happy Arrival</h3>
+        <p class="process__step-text">We coordinate pickup and delivery so your pet lands safe, stress-free, and right on time.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="services__inner">
+    <div class="services__header reveal">
+      <span class="services__eyebrow">WHAT WE OFFER</span>
+      <h2 class="services__title">Complete Pet Relocation Services</h2>
+    </div>
+
+    <div class="services__grid">
+      <article class="service-card reveal">
+        <div class="service-card__icon" aria-hidden="true">✈️</div>
+        <h3 class="service-card__title">International Pet Export</h3>
+        <p class="service-card__text">IATA-certified export handling to 50+ countries. We manage health certs, airline booking, customs clearance.</p>
+        <a class="service-card__link" href="#contact">Learn More →</a>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__icon" aria-hidden="true">🛬</div>
+        <h3 class="service-card__title">Pet Import to Pakistan</h3>
+        <p class="service-card__text">Smooth, documentation-complete import service. We handle quarantine coordination and customs.</p>
+        <a class="service-card__link" href="#contact">Learn More →</a>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__icon" aria-hidden="true">🏨</div>
+        <h3 class="service-card__title">Pet Boarding & Vet Care</h3>
+        <p class="service-card__text">Safe, hygienic boarding with daily vet check-ins. Your pet gets love and attention, not just a cage.</p>
+        <a class="service-card__link" href="#contact">Learn More →</a>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__icon" aria-hidden="true">🩸</div>
+        <h3 class="service-card__title">Pet Blood Testing</h3>
+        <p class="service-card__text">Certified lab testing required for international travel — fast turnaround, accurate results.</p>
+        <a class="service-card__link" href="#contact">Learn More →</a>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__icon" aria-hidden="true">📦</div>
+        <h3 class="service-card__title">IATA-Approved Crates</h3>
+        <p class="service-card__text">Custom-sized, airline-compliant travel crates for all breeds and sizes.</p>
+        <a class="service-card__link" href="#contact">Learn More →</a>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-card__icon" aria-hidden="true">📄</div>
+        <h3 class="service-card__title">Documentation & Clearance</h3>
+        <p class="service-card__text">Full paperwork: health certificates, NOCs, microchipping, and government attestations — we handle it all.</p>
+        <a class="service-card__link" href="#contact">Learn More →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="stats" data-stats-section>
+  <div class="stats__inner">
+    <div class="stats__item reveal">
+      <span class="stats__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" role="img" focusable="false" aria-hidden="true">
+          <path fill="currentColor" d="M12 2.5c-4.97 0-9 3.85-9 8.6 0 2.7 1.44 5.12 3.69 6.71L7 21.5l3.03-1.55c.63.12 1.29.19 1.97.19 4.97 0 9-3.85 9-8.6s-4.03-9.04-9-9.04Zm0 2c3.87 0 7 2.96 7 6.6 0 3.64-3.13 6.6-7 6.6-.68 0-1.35-.08-1.98-.24l-.46-.12-1.7.87.35-1.63-.54-.39C5.9 15.1 5 13.36 5 11.1c0-3.64 3.13-6.6 7-6.6Zm-2.4 3.5h4.8v1.5h-1.65v5.5h-1.5V9.5H9.6V8Z"/>
+        </svg>
+      </span>
+      <div class="stats__value"><span class="stats__number" data-count-to="1200" data-suffix="+">0</span></div>
+      <div class="stats__label">Pets Relocated</div>
+    </div>
+
+    <div class="stats__item reveal">
+      <span class="stats__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" role="img" focusable="false" aria-hidden="true">
+          <path fill="currentColor" d="m2.5 15.5 8-4.5-8-4.5v9Zm9.25-1.25 9.75 5.5v-2.5l-7.3-4.1 7.3-4.1v-2.5l-9.75 5.5V14.25Zm-8.5 6.25h2l13-13h-2l-13 13Z"/>
+        </svg>
+      </span>
+      <div class="stats__value"><span class="stats__number" data-count-to="50" data-suffix="+">0</span></div>
+      <div class="stats__label">Countries Served</div>
+    </div>
+
+    <div class="stats__item reveal">
+      <span class="stats__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" role="img" focusable="false" aria-hidden="true">
+          <path fill="currentColor" d="M12 17.3 6.75 20l1-5.7L3.5 10.2l5.8-.84L12 4l2.7 5.36 5.8.84-4.25 4.1 1 5.7L12 17.3Z"/>
+        </svg>
+      </span>
+      <div class="stats__value"><span class="stats__number" data-count-to="98" data-suffix="%">0</span></div>
+      <div class="stats__label">Satisfaction Rate</div>
+    </div>
+
+    <div class="stats__item reveal">
+      <span class="stats__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" role="img" focusable="false" aria-hidden="true">
+          <path fill="currentColor" d="M7 2v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-2V2h-2v2H9V2H7Zm12 8H5v10h14V10Z"/>
+        </svg>
+      </span>
+      <div class="stats__value"><span class="stats__number" data-count-to="25" data-suffix="+">0</span></div>
+      <div class="stats__label">Years of Experience</div>
+    </div>
+  </div>
+</section>
+
+<section class="why" id="about">
+  <div class="why__inner">
+    <div class="why__content">
+      <span class="why__eyebrow">WHY CHOOSE US</span>
+      <h2 class="why__title">We Don't Just Move Pets. We Move Families.</h2>
+      <p class="why__text">PetTravelPK was born from a simple belief — pets are family. Every relocation we handle is treated with the same care we'd give our own animals.</p>
+      <a class="why__button" href="#contact">Book a Free Consultation →</a>
+    </div>
+
+    <div class="why__grid">
+      <article class="why-card">
+        <span class="why-card__icon" aria-hidden="true">🛡️</span>
+        <div class="why-card__body">
+          <h3 class="why-card__title">IPATA & ATA Certified</h3>
+          <p class="why-card__text">Internationally accredited for safe animal transport</p>
+        </div>
+      </article>
+
+      <article class="why-card">
+        <span class="why-card__icon" aria-hidden="true">🌐</span>
+        <div class="why-card__body">
+          <h3 class="why-card__title">Door-to-Door Worldwide</h3>
+          <p class="why-card__text">From your home to the destination, fully handled</p>
+        </div>
+      </article>
+
+      <article class="why-card">
+        <span class="why-card__icon" aria-hidden="true">🐕</span>
+        <div class="why-card__body">
+          <h3 class="why-card__title">All Breeds & Species</h3>
+          <p class="why-card__text">Dogs, cats, birds, reptiles, exotic pets — we've done it all</p>
+        </div>
+      </article>
+
+      <article class="why-card">
+        <span class="why-card__icon" aria-hidden="true">📞</span>
+        <div class="why-card__body">
+          <h3 class="why-card__title">WhatsApp-First Support</h3>
+          <p class="why-card__text">Get updates instantly on WhatsApp — no waiting on hold</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="team" id="team">
+  <div class="team__inner">
+    <div class="team__header reveal">
+      <div class="team__watermark" aria-hidden="true">Team</div>
+      <div class="team__eyebrow"><span>— Our Team</span></div>
+      <h2 class="team__title">Meet The People Who <span class="teal">Love Your Pets</span></h2>
+    </div>
+
+    <div class="team__grid">
+      <article class="team-card reveal" style="--team-angle: 145deg;">
+        <div class="team-card__photo" aria-hidden="true">
+          <div class="team-card__avatar">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M12 14.5c-2.76 0-5 2.01-5 4.49 0 1.66 1.34 3.01 3 3.01 1.06 0 2.01-.56 2.5-1.42.49.86 1.44 1.42 2.5 1.42 1.66 0 3-1.35 3-3.01 0-2.48-2.24-4.49-5-4.49Zm-6.25-2.25c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5 2.5-1.12 2.5-2.5-1.12-2.5-2.5-2.5Zm12.5 0c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5 2.5-1.12 2.5-2.5-1.12-2.5-2.5-2.5Zm-8.1-6.5c-1.2 0-2.17.97-2.17 2.17s.97 2.17 2.17 2.17 2.17-.97 2.17-2.17-.97-2.17-2.17-2.17Zm5.9 0c-1.2 0-2.17.97-2.17 2.17s.97 2.17 2.17 2.17 2.17-.97 2.17-2.17-.97-2.17-2.17-2.17Zm-2.95-1.75c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2Z"/>
+            </svg>
+          </div>
+          <div class="team-card__overlay">
+            <div class="team-card__socials">
+              <a class="team-card__social" href="#contact" aria-label="WhatsApp" title="WhatsApp">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path fill="currentColor" d="M12.04 2C6.52 2 2.04 6.48 2.04 12c0 1.76.46 3.47 1.34 4.98L2 22l5.17-1.36c1.45.79 3.09 1.2 4.87 1.2 5.52 0 10-4.48 10-10S17.56 2 12.04 2Zm5.85 14.52c-.24.68-1.41 1.32-1.94 1.38-.53.06-1.05.24-3.41-.73-2.85-1.17-4.68-4.05-4.82-4.23-.13-.18-1.15-1.53-1.15-2.93s.73-2.1 1-2.39c.27-.29.59-.36.79-.36h.57c.19 0 .45-.07.7.53.24.61.83 2.1.91 2.25.07.15.12.33.02.52-.1.18-.15.3-.3.46-.15.16-.32.35-.46.47-.15.14-.31.29-.13.63.18.34.8 1.32 1.72 2.14 1.18 1.05 2.17 1.38 2.5 1.53.34.15.53.13.72-.08.19-.21.83-.97 1.05-1.3.22-.33.44-.28.74-.17.31.11 1.95.92 2.29 1.09.34.17.57.26.66.41.09.15.09.86-.15 1.54Z"/>
+                </svg>
+              </a>
+              <a class="team-card__social" href="#contact" aria-label="Instagram" title="Instagram">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path fill="currentColor" d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5Zm8.88 1.38a1.12 1.12 0 1 1 0 2.25 1.12 1.12 0 0 1 0-2.25ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/>
+                </svg>
+              </a>
+              <a class="team-card__social" href="#contact" aria-label="Facebook" title="Facebook">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <path fill="currentColor" d="M13.5 22v-8h2.5l.5-3h-3v-2c0-.87.28-1.5 1.53-1.5H16.5V4.15C16.05 4.09 14.84 4 13.43 4 10.49 4 8.5 5.79 8.5 9v2H6v3h2.5v8h5Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card__body">
+          <h3 class="team-card__name">Ayesha Khan</h3>
+          <p class="team-card__role">Lead Pet Coordinator</p>
+          <p class="team-card__fact">🐾 Has 2 Labradors and a rescued parrot</p>
+        </div>
+      </article>
+
+      <article class="team-card reveal" style="--team-angle: 160deg;">
+        <div class="team-card__photo" aria-hidden="true">
+          <div class="team-card__avatar">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M12 14.5c-2.76 0-5 2.01-5 4.49 0 1.66 1.34 3.01 3 3.01 1.06 0 2.01-.56 2.5-1.42.49.86 1.44 1.42 2.5 1.42 1.66 0 3-1.35 3-3.01 0-2.48-2.24-4.49-5-4.49Zm-6.25-2.25c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5 2.5-1.12 2.5-2.5-1.12-2.5-2.5-2.5Zm12.5 0c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5 2.5-1.12 2.5-2.5-1.12-2.5-2.5-2.5Zm-8.1-6.5c-1.2 0-2.17.97-2.17 2.17s.97 2.17 2.17 2.17 2.17-.97 2.17-2.17-.97-2.17-2.17-2.17Zm5.9 0c-1.2 0-2.17.97-2.17 2.17s.97 2.17 2.17 2.17 2.17-.97 2.17-2.17-.97-2.17-2.17-2.17Zm-2.95-1.75c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2Z"/>
+            </svg>
+          </div>
+          <div class="team-card__overlay">
+            <div class="team-card__socials">
+              <a class="team-card__social" href="#contact" aria-label="WhatsApp" title="WhatsApp">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12.04 2C6.52 2 2.04 6.48 2.04 12c0 1.76.46 3.47 1.34 4.98L2 22l5.17-1.36c1.45.79 3.09 1.2 4.87 1.2 5.52 0 10-4.48 10-10S17.56 2 12.04 2Zm5.85 14.52c-.24.68-1.41 1.32-1.94 1.38-.53.06-1.05.24-3.41-.73-2.85-1.17-4.68-4.05-4.82-4.23-.13-.18-1.15-1.53-1.15-2.93s.73-2.1 1-2.39c.27-.29.59-.36.79-.36h.57c.19 0 .45-.07.7.53.24.61.83 2.1.91 2.25.07.15.12.33.02.52-.1.18-.15.3-.3.46-.15.16-.32.35-.46.47-.15.14-.31.29-.13.63.18.34.8 1.32 1.72 2.14 1.18 1.05 2.17 1.38 2.5 1.53.34.15.53.13.72-.08.19-.21.83-.97 1.05-1.3.22-.33.44-.28.74-.17.31.11 1.95.92 2.29 1.09.34.17.57.26.66.41.09.15.09.86-.15 1.54Z"/></svg>
+              </a>
+              <a class="team-card__social" href="#contact" aria-label="Instagram" title="Instagram">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5Zm8.88 1.38a1.12 1.12 0 1 1 0 2.25 1.12 1.12 0 0 1 0-2.25ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg>
+              </a>
+              <a class="team-card__social" href="#contact" aria-label="Facebook" title="Facebook">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M13.5 22v-8h2.5l.5-3h-3v-2c0-.87.28-1.5 1.53-1.5H16.5V4.15C16.05 4.09 14.84 4 13.43 4 10.49 4 8.5 5.79 8.5 9v2H6v3h2.5v8h5Z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card__body">
+          <h3 class="team-card__name">Bilal Ahmed</h3>
+          <p class="team-card__role">Import Specialist</p>
+          <p class="team-card__fact">🐾 Grew up training rescue dogs with his family</p>
+        </div>
+      </article>
+
+      <article class="team-card reveal" style="--team-angle: 135deg;">
+        <div class="team-card__photo" aria-hidden="true">
+          <div class="team-card__avatar">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M12 14.5c-2.76 0-5 2.01-5 4.49 0 1.66 1.34 3.01 3 3.01 1.06 0 2.01-.56 2.5-1.42.49.86 1.44 1.42 2.5 1.42 1.66 0 3-1.35 3-3.01 0-2.48-2.24-4.49-5-4.49Zm-6.25-2.25c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5 2.5-1.12 2.5-2.5-1.12-2.5-2.5-2.5Zm12.5 0c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5 2.5-1.12 2.5-2.5-1.12-2.5-2.5-2.5Zm-8.1-6.5c-1.2 0-2.17.97-2.17 2.17s.97 2.17 2.17 2.17 2.17-.97 2.17-2.17-.97-2.17-2.17-2.17Zm5.9 0c-1.2 0-2.17.97-2.17 2.17s.97 2.17 2.17 2.17 2.17-.97 2.17-2.17-.97-2.17-2.17-2.17Zm-2.95-1.75c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2Z"/>
+            </svg>
+          </div>
+          <div class="team-card__overlay">
+            <div class="team-card__socials">
+              <a class="team-card__social" href="#contact" aria-label="WhatsApp" title="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12.04 2C6.52 2 2.04 6.48 2.04 12c0 1.76.46 3.47 1.34 4.98L2 22l5.17-1.36c1.45.79 3.09 1.2 4.87 1.2 5.52 0 10-4.48 10-10S17.56 2 12.04 2Zm5.85 14.52c-.24.68-1.41 1.32-1.94 1.38-.53.06-1.05.24-3.41-.73-2.85-1.17-4.68-4.05-4.82-4.23-.13-.18-1.15-1.53-1.15-2.93s.73-2.1 1-2.39c.27-.29.59-.36.79-.36h.57c.19 0 .45-.07.7.53.24.61.83 2.1.91 2.25.07.15.12.33.02.52-.1.18-.15.3-.3.46-.15.16-.32.35-.46.47-.15.14-.31.29-.13.63.18.34.8 1.32 1.72 2.14 1.18 1.05 2.17 1.38 2.5 1.53.34.15.53.13.72-.08.19-.21.83-.97 1.05-1.3.22-.33.44-.28.74-.17.31.11 1.95.92 2.29 1.09.34.17.57.26.66.41.09.15.09.86-.15 1.54Z"/></svg></a>
+              <a class="team-card__social" href="#contact" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5Zm8.88 1.38a1.12 1.12 0 1 1 0 2.25 1.12 1.12 0 0 1 0-2.25ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg></a>
+              <a class="team-card__social" href="#contact" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M13.5 22v-8h2.5l.5-3h-3v-2c0-.87.28-1.5 1.53-1.5H16.5V4.15C16.05 4.09 14.84 4 13.43 4 10.49 4 8.5 5.79 8.5 9v2H6v3h2.5v8h5Z"/></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card__body">
+          <h3 class="team-card__name">Sara Malik</h3>
+          <p class="team-card__role">Documentation Lead</p>
+          <p class="team-card__fact">🐾 Volunteers at a cat rescue every weekend</p>
+        </div>
+      </article>
+
+      <article class="team-card reveal" style="--team-angle: 155deg;">
+        <div class="team-card__photo" aria-hidden="true">
+          <div class="team-card__avatar">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor" d="M12 14.5c-2.76 0-5 2.01-5 4.49 0 1.66 1.34 3.01 3 3.01 1.06 0 2.01-.56 2.5-1.42.49.86 1.44 1.42 2.5 1.42 1.66 0 3-1.35 3-3.01 0-2.48-2.24-4.49-5-4.49Zm-6.25-2.25c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5 2.5-1.12 2.5-2.5-1.12-2.5-2.5-2.5Zm12.5 0c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5 2.5-1.12 2.5-2.5-1.12-2.5-2.5-2.5Zm-8.1-6.5c-1.2 0-2.17.97-2.17 2.17s.97 2.17 2.17 2.17 2.17-.97 2.17-2.17-.97-2.17-2.17-2.17Zm5.9 0c-1.2 0-2.17.97-2.17 2.17s.97 2.17 2.17 2.17 2.17-.97 2.17-2.17-.97-2.17-2.17-2.17Zm-2.95-1.75c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2Z"/>
+            </svg>
+          </div>
+          <div class="team-card__overlay">
+            <div class="team-card__socials">
+              <a class="team-card__social" href="#contact" aria-label="WhatsApp" title="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12.04 2C6.52 2 2.04 6.48 2.04 12c0 1.76.46 3.47 1.34 4.98L2 22l5.17-1.36c1.45.79 3.09 1.2 4.87 1.2 5.52 0 10-4.48 10-10S17.56 2 12.04 2Zm5.85 14.52c-.24.68-1.41 1.32-1.94 1.38-.53.06-1.05.24-3.41-.73-2.85-1.17-4.68-4.05-4.82-4.23-.13-.18-1.15-1.53-1.15-2.93s.73-2.1 1-2.39c.27-.29.59-.36.79-.36h.57c.19 0 .45-.07.7.53.24.61.83 2.1.91 2.25.07.15.12.33.02.52-.1.18-.15.3-.3.46-.15.16-.32.35-.46.47-.15.14-.31.29-.13.63.18.34.8 1.32 1.72 2.14 1.18 1.05 2.17 1.38 2.5 1.53.34.15.53.13.72-.08.19-.21.83-.97 1.05-1.3.22-.33.44-.28.74-.17.31.11 1.95.92 2.29 1.09.34.17.57.26.66.41.09.15.09.86-.15 1.54Z"/></svg></a>
+              <a class="team-card__social" href="#contact" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5Zm8.88 1.38a1.12 1.12 0 1 1 0 2.25 1.12 1.12 0 0 1 0-2.25ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg></a>
+              <a class="team-card__social" href="#contact" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M13.5 22v-8h2.5l.5-3h-3v-2c0-.87.28-1.5 1.53-1.5H16.5V4.15C16.05 4.09 14.84 4 13.43 4 10.49 4 8.5 5.79 8.5 9v2H6v3h2.5v8h5Z"/></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="team-card__body">
+          <h3 class="team-card__name">Omar Siddiqui</h3>
+          <p class="team-card__role">Client Care Manager</p>
+          <p class="team-card__fact">🐾 Has fostered more than a dozen street puppies</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials" id="testimonials">
+  <div class="testimonials__inner">
+    <div class="testimonials__header reveal">
+      <span class="testimonials__eyebrow">TESTIMONIALS</span>
+      <h2 class="testimonials__title">Trusted By Pet Parents Across Pakistan</h2>
+    </div>
+
+    <div class="testimonials__grid">
+      <article class="testimonial-card reveal">
+        <div class="testimonial-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <div class="testimonial-card__quote" aria-hidden="true">&ldquo;</div>
+        <p class="testimonial-card__text">The PetTravelPK team made moving my rabbit from the US to Pakistan feel effortless. Every document, every flight detail — handled perfectly. I can't thank them enough.</p>
+        <div class="testimonial-card__footer">
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">MA</div>
+            <div>
+              <div class="testimonial-card__name">Muneeb Akram</div>
+              <div class="testimonial-card__meta">Pet Owner, USA</div>
+            </div>
+          </div>
+          <span class="testimonial-card__pet">🐰 Holland Lop Rabbit</span>
+        </div>
+      </article>
+
+      <article class="testimonial-card reveal">
+        <div class="testimonial-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <div class="testimonial-card__quote" aria-hidden="true">&ldquo;</div>
+        <p class="testimonial-card__text">My cat flew from Islamabad to Toronto without a single issue. The communication was excellent and my cat arrived calm and safe. Strongly recommended.</p>
+        <div class="testimonial-card__footer">
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">OG</div>
+            <div>
+              <div class="testimonial-card__name">Omayr Gondal</div>
+              <div class="testimonial-card__meta">Pet Owner, Canada</div>
+            </div>
+          </div>
+          <span class="testimonial-card__pet">🐱 Persian Cat</span>
+        </div>
+      </article>
+
+      <article class="testimonial-card reveal">
+        <div class="testimonial-card__stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <div class="testimonial-card__quote" aria-hidden="true">&ldquo;</div>
+        <p class="testimonial-card__text">I just had to show up at the airport and pick up my dog. Everything else was done by PetTravelPK. Professional, fast, and so caring.</p>
+        <div class="testimonial-card__footer">
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">UM</div>
+            <div>
+              <div class="testimonial-card__name">Umm Musa</div>
+              <div class="testimonial-card__meta">Pet Owner, Oman</div>
+            </div>
+          </div>
+          <span class="testimonial-card__pet">🐕 Pakistani Bully</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="faqs">
+  <div class="faq__inner">
+    <div class="faq__content">
+      <span class="faq__eyebrow">FAQ</span>
+      <h2 class="faq__title">Answers to Your Questions</h2>
+      <p class="faq__text">Get a quick overview of how PetTravelPK works before you reach out. If you still have questions, our team is ready to help directly.</p>
+      <a class="faq__button" href="#contact">Contact Us</a>
+    </div>
+
+    <div class="faq__accordion" data-faq-accordion>
+      <article class="faq-item">
+        <button class="faq-item__trigger" type="button" aria-expanded="false">
+          <span class="faq-item__question">Which countries do you ship pets to?</span>
+          <span class="faq-item__icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-item__panel" hidden>
+          <div class="faq-item__panel-inner">
+            We coordinate pet relocation to 50+ destinations worldwide, including North America, Europe, the Middle East, and Australia, depending on route rules and airline availability.
+          </div>
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-item__trigger" type="button" aria-expanded="false">
+          <span class="faq-item__question">What vaccinations does my pet need before travel?</span>
+          <span class="faq-item__icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-item__panel" hidden>
+          <div class="faq-item__panel-inner">
+            Vaccination requirements depend on the destination country and species. We guide you through the needed vaccines, health certificates, and timing so you stay compliant.
+          </div>
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-item__trigger" type="button" aria-expanded="false">
+          <span class="faq-item__question">How long does the import/export process take?</span>
+          <span class="faq-item__icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-item__panel" hidden>
+          <div class="faq-item__panel-inner">
+            Timelines vary by route, paperwork, and airline schedules. Simple relocations can move quickly, while more complex cases may take longer for approvals, testing, and booking.
+          </div>
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-item__trigger" type="button" aria-expanded="false">
+          <span class="faq-item__question">Do you handle all pet breeds, including exotic animals?</span>
+          <span class="faq-item__icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-item__panel" hidden>
+          <div class="faq-item__panel-inner">
+            Yes. We work with dogs, cats, birds, reptiles, and select exotic pets, subject to destination-country rules and airline acceptance policies.
+          </div>
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-item__trigger" type="button" aria-expanded="false">
+          <span class="faq-item__question">Is my pet insured during the journey?</span>
+          <span class="faq-item__icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-item__panel" hidden>
+          <div class="faq-item__panel-inner">
+            We can advise on travel insurance options and carrier best practices. Coverage details depend on the route, carrier, and the policy selected for your relocation.
+          </div>
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-item__trigger" type="button" aria-expanded="false">
+          <span class="faq-item__question">What is an IATA-approved crate and do I need one?</span>
+          <span class="faq-item__icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-item__panel" hidden>
+          <div class="faq-item__panel-inner">
+            An IATA-approved crate is an airline-compliant travel kennel designed for safety, ventilation, and size requirements. In most international relocations, yes, you will need one.
+          </div>
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-item__trigger" type="button" aria-expanded="false">
+          <span class="faq-item__question">Can I track my pet during travel?</span>
+          <span class="faq-item__icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-item__panel" hidden>
+          <div class="faq-item__panel-inner">
+            Yes. We keep you updated throughout the process and share status updates so you know where your pet is and what the next step will be.
+          </div>
+        </div>
+      </article>
+
+      <article class="faq-item">
+        <button class="faq-item__trigger" type="button" aria-expanded="false">
+          <span class="faq-item__question">How do I get started with PetTravelPK?</span>
+          <span class="faq-item__icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-item__panel" hidden>
+          <div class="faq-item__panel-inner">
+            Start by contacting us with your pet’s details, destination, and travel dates. We’ll review the route, explain the paperwork, and guide you through the next steps.
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact__inner">
+    <div class="contact__info">
+      <h2 class="contact__title">Let's Get Your Pet Moving</h2>
+      <p class="contact__text">Have questions? Reach out on WhatsApp or social media — we respond fast.</p>
+
+      <p class="contact__phone">
+        <a href="tel:+923298260769">📞 +92 329 8260769</a>
+      </p>
+
+      <div class="contact__socials" aria-label="Social media links">
+        <a class="contact__social" href="https://facebook.com/pettravelpk" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M13.5 22v-8h2.5l.5-3h-3v-2c0-.87.28-1.5 1.53-1.5H16.5V4.15C16.05 4.09 14.84 4 13.43 4 10.49 4 8.5 5.79 8.5 9v2H6v3h2.5v8h5Z"/>
+          </svg>
+        </a>
+        <a class="contact__social" href="https://instagram.com/pettravelpk" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2Zm0 2A3.75 3.75 0 0 0 4 7.75v8.5A3.75 3.75 0 0 0 7.75 20h8.5A3.75 3.75 0 0 0 20 16.25v-8.5A3.75 3.75 0 0 0 16.25 4h-8.5Zm8.88 1.38a1.12 1.12 0 1 1 0 2.25 1.12 1.12 0 0 1 0-2.25ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/>
+          </svg>
+        </a>
+      </div>
+
+      <a class="contact__whatsapp" href="https://wa.me/923298260769" target="_blank" rel="noopener noreferrer">
+        💬 Chat With Us on WhatsApp
+      </a>
+    </div>
+
+    <div class="contact-info-item">
+      <span class="contact-icon">📧</span>
+      <a href="mailto:pettravelpk@gmail.pk">pettravelpk@gmail.pk</a>
+    </div>
+
+    <div class="contact__form-panel">
+      <form class="contact__form" id="contact-form" novalidate>
+        <div class="contact__field">
+          <label class="contact__label" for="contact-name">Full Name</label>
+          <input class="contact__input" type="text" id="contact-name" name="name" required autocomplete="name" />
+          <span class="contact__error" id="contact-name-error" role="alert"></span>
+        </div>
+
+        <div class="contact__field">
+          <label class="contact__label" for="contact-phone">Phone Number</label>
+          <input class="contact__input" type="tel" id="contact-phone" name="phone" required placeholder="03XX XXXXXXX" autocomplete="tel" />
+          <span class="contact__error" id="contact-phone-error" role="alert"></span>
+        </div>
+
+        <div class="contact__field">
+          <label class="contact__label" for="contact-pet-type">Pet Type</label>
+          <select class="contact__input contact__select" id="contact-pet-type" name="pet-type" required>
+            <option value="">Select Pet Type</option>
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Bird">Bird</option>
+            <option value="Rabbit">Rabbit</option>
+            <option value="Reptile">Reptile</option>
+            <option value="Exotic">Exotic</option>
+            <option value="Other">Other</option>
+          </select>
+          <span class="contact__error" id="contact-pet-type-error" role="alert"></span>
+        </div>
+
+        <div class="contact__field">
+          <label class="contact__label" for="contact-service">Service Needed</label>
+          <select class="contact__input contact__select" id="contact-service" name="service" required>
+            <option value="">Select Service</option>
+            <option value="Pet Export">Pet Export</option>
+            <option value="Pet Import">Pet Import</option>
+            <option value="Boarding & Vet Care">Boarding &amp; Vet Care</option>
+            <option value="Blood Testing">Blood Testing</option>
+            <option value="IATA Crate">IATA Crate</option>
+            <option value="Documentation">Documentation</option>
+          </select>
+          <span class="contact__error" id="contact-service-error" role="alert"></span>
+        </div>
+
+        <div class="contact__field">
+          <label class="contact__label" for="contact-message">Your Message</label>
+          <textarea class="contact__input contact__textarea" id="contact-message" name="message" rows="4" required placeholder="Tell us about your pet and travel plans..."></textarea>
+          <span class="contact__error" id="contact-message-error" role="alert"></span>
+        </div>
+
+        <button class="contact__submit" type="submit">Send Message →</button>
+      </form>
+
+      <div class="contact__success hidden" id="contact-success" hidden>
+        <div class="contact__success-icon" aria-hidden="true">✅</div>
+        <h3 class="contact__success-title">Message Sent!</h3>
+        <p class="contact__success-text">We'll get back to you on WhatsApp within 2 hours. 🐾</p>
+        <a class="contact__success-link" href="https://wa.me/923298260769" target="_blank" rel="noopener noreferrer">wa.me/923298260769</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<%- include('partials/footer') %>
